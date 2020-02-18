@@ -28,7 +28,7 @@ public class TestHomePage {
 
 	@Test
 	public void verify() {
-		Assert.assertEquals(driver.findElement(By.xpath("html/body/div/header/h2")).getText(), "Simple PHP Website");
+		Assert.assertEquals(driver.findElement(By.xpath("/html/body/div/header/h2")).getText(), "Simple PHP Website");
 	}
 
 	@AfterMethod
