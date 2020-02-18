@@ -4,7 +4,7 @@
 		<classes>
 			<class name="TestNG.TestHomePage"/>
 			<class name="TestNG.TestAboutPage"/>
-			<class name="TestNG.TestProductPage"/>
+			<class name="TestNG.TestProductsPage"/>
 			<class name="TestNG.TestContactPage"/>
 		</classes>
 	</test>

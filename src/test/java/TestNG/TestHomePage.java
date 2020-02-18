@@ -17,8 +17,8 @@ public class TestHomePage {
 
 	@BeforeMethod
 	public void launch() {
-		//System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/chromedriver");
-		System.setProperty("webdriver.chrome.driver","E:\\development\\STSWorkspace\\workspace5\\devopstestproj\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/chromedriver");
+		//System.setProperty("webdriver.chrome.driver","E:\\development\\STSWorkspace\\workspace5\\devopstestproj\\chromedriver.exe");
 		ChromeOptions chromeOptions= new ChromeOptions();
     	//chromeOptions.addArguments("--headless");
 		driver = new ChromeDriver(chromeOptions);
